@@ -1,0 +1,96 @@
+body p{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+ /*--we're typing this nav here because it is the container for the anchor tag and in trying to style what we have in the anchor tags, we want to move the to the right hand side of the website---*/   
+    display:flex;
+    justify-content: space-around;
+    /*--the code above give space between the gmail and the images---*/
+    width: 20%;
+    /*--the width with its percentage closes up the space--*/
+    margin-left: auto;
+    /*--adding the code above is to enble it go to the right hand side--*/
+    padding: 2em;
+}
+
+a{
+    /*---from the above code, in the bid of trying to target the nav container and the anchor tag from html---*/
+  color:black;
+  /*--the above code changes the color to black--*/
+  text-decoration: none;
+  /*--the text decoration code that is set to non removes the underlining effect on the gmail and image wording on the website---*/
+
+
+}
+a:hover{
+    text-decoration: underline;
+}
+nav img{
+   /*-come here on the style sheet and target the img tag using nav--*/ 
+height: 20px;
+/*--continuation of the above comment, target img using nav by giving it a height of 20px, also note that px, em and so are all unit measurement-*/
+
+}
+
+main{
+    /*--to target the main because its not organised, first of all call in the main here for styling--*/
+    width: 50%;
+    /*--then set the width to 50%--*/
+    margin: 6.9em auto;
+    /*--you first of all set to margin auto to have equal spacing on the left and right for the big google sign on the main--*/
+    text-align: center;
+    /*--using text-align on the main so that all the contents would be centered-*/
+}
+
+input{
+    /*--calling in the input field to style it and giving it the below measurement--*/
+    width: 80%;
+     padding: 1em;
+     /*--for space inside the input field, we would give it a padding of 1em--*/
+    border-radius: 30px;
+    /*-to work on the edges of the input field a bit curvy, we would be using the above code--*/
+    border: 1px solid gray;
+    /*--now the above code would enable the borders of the input to be less darker-*/
+}
+
+.btns-container{
+/*--we started with a dot because its a class, a div class, calling in the buttons container for styling-*/
+    margin-top: 1em;
+/*--there's no space btw the input field and the buttons, so the above margin code would correct that --*/
+
+}
+ .btns-container button{
+     /*---*/
+
+    padding: 1em;
+     border:none
+ }
+
+ footer{
+  background-color: rgb(223, 209, 209);    
+}
+ .footer-top{
+     padding: 1em;
+ }
+
+ .footer-bottom{
+     padding: 1em;
+     display: flex;
+     justify-content: space-between;
+     border-top: 1px solid gray;
+    
+ }
+
+ .left a{
+     margin-right: 1em;
+ }
+
+ .right a{
+     margin-right: 1em;
+ }
+
+
+
+
